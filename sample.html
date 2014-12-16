@@ -1,0 +1,51 @@
+<html>
+<head>
+	<meta charset='utf8'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <link href="colorlabel.css" rel="stylesheet">
+    <script type="text/javascript" src="scroll-hamidenai.js"></script>
+    <script>
+    $(document).ready(function(){
+
+    	//サンプル表示用データ作成
+    	for(var i=1; i<=20; i++) {
+    		$("#hamidenai").append(i+'<br>');
+    		$("#hamideru").append(i+'<br>');
+    	}
+
+    	//スクロールはみでないを適用
+      	$("#hamidenai").scrollHamidenai();
+
+  	});
+    </script>
+</head>
+<body>
+
+<p>
+jquery-scroll-hamidenaiサンプル
+</p>
+
+<div style="height:50px;"></div>
+
+<div style="display:inline-block; margin:10px;">
+	スクロールイベントがはみでる例
+	<div id="hamideru" style="overflow-y:scroll; height:200px; width:400px; border:1px solid red;">
+	</div>
+	上記DIVエリア内でマウスをコロコロして、最下部にいくと、画面全体がスクロールしてしまい、イラッとします。
+</div>
+
+<div style="height:20px;"></div>
+
+<div style="display:inline-block; margin:10px;">
+	スクロールイベントがはみでない例
+	<div id="hamidenai" style="overflow-y:scroll; height:200px; width:400px; border:1px solid blue;">
+	</div>
+	上記DIVエリア内でマウスをコロコロして、最下部にいっても、画面全体にスクロールが及ぶことがありません。
+</div>
+
+<div style="height:2000px;">
+</div>
+
+</body>
+</html>
