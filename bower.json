@@ -1,0 +1,19 @@
+{
+  "name": "jquery-scroll-hamidenai",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "scroll-hamidenai.js",
+  "keyword": [
+    "jquery",
+    "scroll",
+    "hamidenai",
+    "over",
+    "event"
+  ],
+  "dependencies": {
+    "jquery": ">=1.11"
+  },
+  "devDependencies": {
+    "jquery": ">=1.11"
+  }
+}
