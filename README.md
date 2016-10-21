@@ -32,7 +32,7 @@ jQueryと、このプラグインのJavaScriptファイル(scroll-hamidenai.js)�
 
 サンプル
 ----
-http://hodade.adam.ne.jp/jquery-scroll-hamidenai/sample.html
+http://hodade.com/jquery-scroll-hamidenai/sample.html
 
 
 ライセンス
